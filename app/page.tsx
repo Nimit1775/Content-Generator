@@ -1,8 +1,12 @@
+'use client';  // This ensures the Home component is a client component
+
+import { Navbar } from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
@@ -47,6 +51,7 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio quos hic inventore explicabo quam deleniti recusandae ea maiores atque eum praesentium quasi, a reiciendis doloribus tempora. Nisi exercitationem eos itaque, quidem maxime voluptate harum dolor aut debitis ab quaerat possimus cupiditate delectus optio facilis! Vero reprehenderit ad nihil alias cumque, cum voluptatum quasi. Modi in saepe officiis ipsam. Fuga officiis minima expedita corporis suscipit! Quam rem veniam itaque expedita vero, vel numquam, amet cumque harum, ea repellendus molestiae voluptatem. Voluptatum ratione recusandae, minima, magni corrupti esse est suscipit obcaecati maxime, numquam eos beatae sunt? Libero nihil obcaecati perspiciatis! Reiciendis.</p>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
