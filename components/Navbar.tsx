@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { Sparkles } from 'lucide-react';
-import { ClientNavbar } from './ClientNavbar';  // Client logic component
+import { ClientNavbar } from './ClientNavbar'; // Client logic component
 
 export function Navbar() {
     return (
@@ -9,8 +8,8 @@ export function Navbar() {
                 <div className="flex flex-wrap justify-between items-center max-w-6xl mx-auto">
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2">
-                            <Sparkles className="w-8 h-8 text-blue-500" />
-                            <span className="text-xl sm:text-2xl font-bold text-white">PostMaster AI</span>
+                            
+                            <span className="text-xl sm:text-2xl font-bold text-white"></span>
                         </Link>
                     </div>
                     <ClientNavbar /> {/* Client-side logic goes here */}
