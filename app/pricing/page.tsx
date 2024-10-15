@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 
  
 
-
+/*
 const pricingPlans = [
     {
       name: "Basic",
@@ -37,7 +37,7 @@ const pricingPlans = [
         "Dedicated account manager",
       ],
     },
-  ];
+  ];*/
   
   export default function PricingPage () {
 

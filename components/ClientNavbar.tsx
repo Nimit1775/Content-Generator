@@ -14,7 +14,7 @@ export function ClientNavbar() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-//@ts-ignore
+//@ts-expect-error don't even know what the fking error is .
     const handleScrollToFeatures = (e) => {
         e.preventDefault();
         const featuresSection = document.getElementById('features');
